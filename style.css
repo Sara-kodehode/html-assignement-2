@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+
+  /* flex-grow: 0;
+  flex-shrink: 0; */
+  /* flex-shrink: inherit; */
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
+#container {
+  display: flex;
+  width: 60%;
+  min-width: 600px;
+  min-height: 60vh;
+  /* height: auto; */
+}
+.main {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  justify-content: space-between;
+  padding-left: 20px;
+  /* height: 100%; */
+  /* overflow: auto; */
+  padding: 20px;
+}
+
+.left-div {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.mid-div {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+.right-div {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#icon-size {
+  width: 70px;
+  /* padding: 20px; */
+  padding: 40px 20px 0px 20px;
+}
+
+h2 {
+  padding: 20px 0px 0px 20px;
+  /* padding: 20px; */
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  max-width: 180px;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px 20px 40px 20px;
+  /* line-height: 1.6; */
+}
+
+.button {
+  border: none;
+  width: 90px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  margin: 20px 0px 40px 30px;
+}
